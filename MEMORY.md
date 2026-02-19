@@ -249,4 +249,83 @@ Just say:
 
 ---
 
+## 🤖 **Agentic Engineering (2026-02-19)**
+
+### Key Insights from "Forging a Workflow: Agentic Engineering in Practice"
+
+**Source:** Martin Gratzer - Article on shifting from manual coding to agentic workflows
+
+### From Assistant to Agent
+
+**The Real Shift:**
+Stop using AI for one-off prompts → Start encoding team conventions into reusable "skills"
+
+**Key Principle:**
+- Agent is only as effective as the workflow and codebase it's given to work within
+- Structure amplifies capability
+
+### The "Colorburst" Experiment
+
+**What:**
+AI-powered coloring page generator (planning → production)
+
+**Finding:**
+Agents excel when project has:
+- ✅ Well-defined structure
+- ✅ Clear documentation to ground them
+
+### Process as a Tool, Not a Tax
+
+**Traditional Overhead:**
+- Tickets
+- PR templates
+- Changelogs
+
+**Agentic Engineering:**
+- Automates these tasks
+- Ensures high-quality documentation and testing maintained effortlessly
+
+### The "Forge" Workflow
+
+**Open-standard skills for project pipeline:**
+
+1. **Setting Foundations** - Project structure, conventions
+2. **Planning** - Requirements, architecture
+3. **Implementing** - Coding with patterns
+4. **Self-Reviewing** - Code quality, testing
+5. **Documenting** - Auto-generated docs
+
+### Human's Evolving Role
+
+**From:** Writing code manually
+**To:**
+- High-level architecture
+- Orchestration
+- Quality gate (Pull Request)
+
+### Why PRs Remain Essential
+
+**Human Review Catches:**
+- ✅ Cross-cutting concerns (security)
+- ✅ Shared team knowledge
+- ✅ Architectural alignment
+
+### Application to OpenClaw
+
+**What We Have:**
+- Skills system with SKILL.md files ✅
+- Multiple agents (Rayan, trading, etc.) ✅
+- Clear conventions (AGENTS.md, SOUL.md, USER.md, MEMORY.md) ✅
+- Git-based workflow ✅
+
+**Next Steps:**
+1. Encode team conventions into skills
+2. Define project structure for agents
+3. Create Forge-style workflow skills
+4. Use PR review as quality gate
+
+**Takeaway:** AI increases speed, but structure amplifies capability.
+
+---
+
 *Last updated: 2026-02-19*
