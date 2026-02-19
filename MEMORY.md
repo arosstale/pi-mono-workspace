@@ -384,4 +384,39 @@ The "Singularity Attack" (prompt injection/jailbreaking) attempts to make AI sys
 
 ---
 
+## 🎯 **Lead Generator System (2026-02-19)**
+
+### System Complete ✅
+
+**Location:** `skills/lead-generator/`
+
+**Built:**
+- Complete lead generation system (5 phases)
+- Scraping (trade shows, directories, browser)
+- Enrichment (website, email, industry)
+- Qualification (scoring 0-100, filtering)
+- Storage (CSV, Excel, SQLite)
+- Outreach (emails, LinkedIn templates)
+
+**Files:**
+- `SKILL.md` (13.8KB) - Complete documentation
+- `README.md` (3.5KB) - Quick start
+- `run.py` (14.8KB) - Main Python implementation
+- `requirements.txt` - Python dependencies
+- `config.json` - Configuration template
+
+**Features:**
+- Trade show scraping (SmallWorldLabs, Swapcard)
+- Browser automation integration
+- Lead qualification and scoring
+- Multi-format output (CSV, Excel, DB)
+- Outreach templates (intro, followup, LinkedIn)
+
+**Architecture:**
+```
+Data Sources → Enrichment → Qualification → Storage → Outreach
+```
+
+---
+
 *Last updated: 2026-02-19*
