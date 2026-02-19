@@ -1,0 +1,25 @@
+{
+  "sender": {
+    "name": "Your Name",
+    "title": "Your Title",
+    "company": "Your Company",
+    "email": "your@email.com",
+    "phone": "+1 555 123 4567"
+  },
+  "smtp": {
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "use_tls": true,
+    "username": "",
+    "password": ""
+  },
+  "linkedin": {
+    "session_cookie": "",
+    "user_agent": ""
+  },
+  "filters": {
+    "exclude_business_services": true,
+    "min_score": 50,
+    "industries": ["SaaS", "Retail", "Hospitality", "Technology"]
+  }
+}
