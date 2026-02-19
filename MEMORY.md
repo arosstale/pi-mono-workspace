@@ -347,4 +347,41 @@ Agents excel when project has:
 
 ---
 
+## 🔐 **Security - Singularity Attack Defense (2026-02-19)**
+
+### What It Is
+
+The "Singularity Attack" (prompt injection/jailbreaking) attempts to make AI systems break out of constraints and follow attacker-provided instructions.
+
+### Defense Strategies
+
+| Layer | Technique |
+|--------|-----------|
+| **1. Input Validation** | Check for override patterns |
+| **2. Context Isolation** | Separate system vs user (delimiters) |
+| **3. Capability Control** | Whitelist allowed actions |
+| **4. Output Filtering** | Strip injected commands |
+| **5. Human-in-the-Loop** | Destructive actions need approval |
+
+### OpenClaw Defenses
+
+| Mechanism | Status |
+|------------|--------|
+| External content delimiters | ✅ `<<<EXTERNAL_UNTRUSTED_CONTENT>>>` |
+| Separated system/user context | ✅ Implemented |
+| Destructive action blocking | ✅ Implemented |
+| External request warnings | ✅ Implemented |
+
+### Key Principles
+
+1. **Never Trust User Text Implicitly** - Always validate
+2. **Isolate System Instructions** - Use delimiters
+3. **Require Explicit Privilege** - Dangerous actions need approval
+4. **Log Security Events** - Track and learn
+5. **Maintain Human-in-the-Loop** - Safety requires oversight
+
+**Documentation:** `SINGULARITY_ATTACK_DEFENSE.md` (9.1KB)
+
+---
+
 *Last updated: 2026-02-19*
