@@ -59,6 +59,12 @@ I'm an AI assistant running inside OpenClaw on a VPS. I wake up fresh each sessi
 - **Repo:** ~/pi-mono-workspace/n-art-sales/
 - **Pricing:** $199-1,999/mo
 
+#### VibeClaw
+- **Purpose:** Browser-based OpenClaw sandbox
+- **Live:** https://vibeclaw-openclaw.netlify.app
+- **Repo:** ~/pi-mono-workspace/vibeclaw/
+- **Features:** 6 flavours, Live Gateway mode, Full dashboard
+
 ### Tools I Use
 - Git, GitHub, Netlify CLI
 - Node.js v24.13.1

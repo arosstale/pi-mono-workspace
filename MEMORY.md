@@ -419,4 +419,69 @@ Data Sources → Enrichment → Qualification → Storage → Outreach
 
 ---
 
-*Last updated: 2026-02-19*
+---
+
+## 🦀 **VibeClaw - Browser-Based OpenClaw (2026-02-21)**
+
+### Overview
+OpenClaw sandbox that runs entirely in your browser — no server, no Docker, no install required.
+
+**Live:** https://vibeclaw-openclaw.netlify.app
+**Local:** `~/pi-mono-workspace/vibeclaw/`
+**GitHub:** https://github.com/arosstale/vibeclaw (forked from jasonkneen/vibeclaw)
+
+### Features
+- 🌐 **Sandbox Mode** - Boot OpenClaw agents directly in browser (almostnode runtime)
+- 🔴 **Live Gateway** - Connect to your running OpenClaw instance via WebSocket
+- 🎨 **6 Flavours** - Swap personalities (OpenClaw, TinyClaw, ShipIt, R00t, Pixie, Professor)
+- 📊 **Full Dashboard** - Sessions, agents, files, skills, cron jobs, metrics, logs
+- 🔌 **8 Netlify Functions** - `/api/chat`, `/api/articles`, `/api/gateway-live`, etc.
+
+### Flavours Available
+| Emoji | Name | Focus | Agents | Skills |
+|-------|------|-------|--------|--------|
+| 🦀 | OpenClaw | Coding assistant | 4 | 3 |
+| 🦞 | TinyClaw | Multi-agent orchestrator | 5 | 4 |
+| 🚀 | ShipIt | DevOps | 5 | 5 |
+| 💀 | R00t | Security/pen-testing | 5 | 5 |
+| ✨ | Pixie | Creative studio | 5 | 5 |
+| 🎓 | Professor | Education | 4 | 4 |
+
+### Deployment
+- **Platform:** Netlify (Free plan)
+- **Account:** Fdsa (arosstale)
+- **Build:** Vite + Netlify Functions
+- **Auto-deploy:** Manual (via `netlify deploy --prod`)
+
+### Update Commands
+```bash
+# Build and deploy
+cd ~/pi-mono-workspace/vibeclaw
+npm run flavours:build && npm run build
+NETLIFY_AUTH_TOKEN="nfp_rCyYJ4CycbXAPb1zQzLDT3gnn9zQEiuB6edf" netlify deploy --prod --dir=dist-site --functions=netlify/functions
+```
+
+### Netlify API
+- **Site ID:** 81c6fa40-191a-4df7-a61b-afd36232a5ac
+- **Admin URL:** https://app.netlify.com/projects/vibeclaw-openclaw
+- **Build Logs:** https://app.netlify.com/projects/vibeclaw-openclaw/deploys
+- **Function Logs:** https://app.netlify.com/projects/vibeclaw-openclaw/functions
+
+### Skills Repository
+- **Location:** `~/pi-mono-workspace/awesome-openclaw-skills/`
+- **GitHub:** https://github.com/VoltAgent/awesome-openclaw-skills
+- **Skills:** 3,002 curated skills (30+ categories)
+- **Excluded:** Spam, crypto, duplicates, flagged malicious content
+
+### Top Skill Categories
+- 🤖 AI & LLMs (287)
+- 🔍 Search & Research (253)
+- ⚙️ DevOps & Cloud (212)
+- 🌐 Web & Frontend (202)
+- 🛒 Marketing & Sales (143)
+- 💻 Coding Agents (133)
+- 🌍 Browser & Automation (139)
+
+---
+
+*Last updated: 2026-02-21*
