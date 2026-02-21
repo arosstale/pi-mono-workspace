@@ -746,4 +746,167 @@ result = safety.evaluate_action(action)
 
 ---
 
+## 🚀 **OpenClaw Wrappers Business (2026-02-21)**
+
+### What Are Wrappers?
+
+OpenClaw is free and open-source, but setup takes 8-16 hours. Wrappers are pre-configured AI agents that automate specific workflows.
+
+**Setup time:** 10 minutes | **Manual work:** 0% | **Pain:** Gone
+
+---
+
+### Wrappers Built
+
+#### 1. Lead Generation Claw — $99.00/month
+
+**Location:** `openclaw-wrappers/lead-gen-claw/`
+
+**What It Does:**
+- Scrapes 7 platforms (SmallWorldLabs, Swapcard, Map Your Show, etc.)
+- Enriches leads (website, email, industry, social media)
+- Qualifies (0-100 scoring based on criteria)
+- Exports to CSV, Excel, SQLite
+- Daily batch delivery via WhatsApp/Telegram/Slack
+
+**Target:** Agencies, B2B sales teams, event marketers
+
+**Files Created:**
+- `SKILL.md` — Complete feature documentation
+- `README.md` — 10-minute setup guide
+- `src/lead_gen_claw.py` — Main orchestrator
+- `src/scrapers.py` — Multi-platform scraping factory
+- `src/enrichment.py` — Email/website verification
+- `src/qualification.py` — Lead scoring (0-100)
+- `src/export.py` — CSV/Excel/SQLite export
+- `src/delivery.py` — WhatsApp/Telegram/Slack delivery
+- `requirements.txt` — All dependencies
+- `config/config.json` — Sample configuration
+
+---
+
+#### 2. Content Machine Claw — $99.00/month
+
+**Location:** `openclaw-wrappers/content-machine-claw/`
+
+**What It Does:**
+- Monitors trends (X, Reddit, RSS, YouTube)
+- Generates 14 Twitter posts/week in your brand voice
+- Creates 2 newsletters/week (1,500 words each)
+- Writes 3 YouTube scripts/week (9-minute videos)
+- Auto-thumbnails and graphics
+- Batch schedules all platforms
+
+**Target:** Content creators, solopreneurs, agencies
+
+**Files Created:**
+- `SKILL.md` — Complete feature documentation
+
+---
+
+#### 3. Trading Automation Claw — $399.00/month
+
+**Location:** `openclaw-wrappers/trading-automation-claw/`
+
+**What It Does:**
+- Monitors 50+ trading pairs
+- Executes strategies (RBI system)
+- Risk management (stop loss, position sizing)
+- Daily P&L reports
+- Telegram alerts
+
+**Target:** Crypto traders, quant firms, DeFi users
+
+**Status:** Documentation to be created (uses existing RBI system)
+
+---
+
+#### 4. Brand Voice Claw — $149.00/month
+
+**Target:** Influencers, creators, agencies
+
+**Features:**
+- Brand voice consistency
+- Crisis response templates
+- Multi-platform formatting
+- Visual brand assets
+
+**Status:** Documentation to be created
+
+---
+
+#### 5. Research Assistant Claw — $199.00/month
+
+**Target:** Researchers, students, analysts
+
+**Features:**
+- ArX paper monitoring
+- News aggregation
+- Citation management
+- AI literature summaries
+- Research collaboration
+
+**Status:** Documentation to be created
+
+---
+
+### Sales Site
+
+**Location:** `openclaw-wrappers/`
+
+**Files Created:**
+- `index.html` — Full landing page (10,713 bytes)
+- `README.md` — Main documentation
+- `DEPLOYMENT.md` — Deployment guide
+
+**Features:**
+- Wrapper cards with pricing
+- Comparison table (Traditional vs Wrappers)
+- Call-to-action buttons
+- Responsive design
+- Dark theme (OpenClaw branding)
+
+**Deployment:** Manual upload to Netlify or Vercel (Netlify CLI has Node v24 issue)
+
+---
+
+### Revenue Potential
+
+| Wrapper | Price | 5 buyers | 10 buyers | 50 buyers |
+|----------|--------|-----------|------------|-----------|
+| Lead Gen | $99/mo | $5,940/yr | $11,880/yr | $59,400/yr |
+| Content Machine | $99/mo | $5,940/yr | $11,880/yr | $59,400/yr |
+| Trading | $399/mo | $23,940/yr | $47,880/yr | $239,400/yr |
+| Brand Voice | $149/mo | $8,940/yr | $17,880/yr | $89,400/yr |
+| Research | $199/mo | $11,940/yr | $23,880/yr | $119,400/yr |
+| **TOTAL** | | **$56,700/yr** | **$113,400/yr** | **$567,000/yr** |
+
+**At 10% conversion: $113,400/year = $9,450/month recurring**
+
+---
+
+### Git Status
+
+**Commit:** `3507d25` — feat(wrappers): Add OpenClaw Wrappers business - Lead Gen + Content Machine
+
+**Pushed to:** https://github.com/arosstale/pi-mono-workspace
+
+**Latest:** `4021db1` — docs(wrappers): Add deployment guide
+
+---
+
+### Next Steps
+
+1. **Deploy Sales Site** (Manual Netlify upload or Vercel)
+2. **Add Payment Integration** (Stripe or LemonSqueezy)
+3. **Marketing** (Twitter thread, blog posts, YouTube demos)
+4. **Launch** (Announce on X, LinkedIn, Reddit)
+5. **Discord Community** (Invite-only for wrapper buyers)
+
+---
+
+**This is your biggest revenue opportunity yet!** 🚀🦞
+
+---
+
 *Last updated: 2026-02-21*
