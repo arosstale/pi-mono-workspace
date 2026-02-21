@@ -1,0 +1,26 @@
+{
+  "preferences": {
+    "default_stack": "nextjs",
+    "preferred_apis": ["stripe", "supabase", "mixpanel"],
+    "deployment_platform": "vercel"
+  },
+  "boilerplates": {
+    "nextjs_dashboard": "https://github.com/shadcn-ui/dashboard",
+    "react_saas": "https://github.com/your-org/saas-starter",
+    "python_api": "https://github.com/your-org/fastapi-starter"
+  },
+  "testing": {
+    "framework": "jest",
+    "e2e": "playwright",
+    "coverage_threshold": 80
+  },
+  "deployment": {
+    "platform": "vercel",
+    "auto_deploy_on_push": true
+  },
+  "delivery": {
+    "channel": "whatsapp",
+    "notify_on_build": true,
+    "notify_on_deploy": true
+  }
+}

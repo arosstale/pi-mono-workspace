@@ -1,0 +1,66 @@
+{
+  "brand_voice": {
+    "style": "casual",
+    "tone": "optimistic",
+    "vocabulary": ["shipping", "shipping fast", "builders"],
+    "avoid": ["guys", "please", "super"],
+    "examples": [
+      "Ship it or shut up.",
+      "Done is better than perfect."
+    ]
+  },
+  "sources": [
+    {
+      "platform": "reddit",
+      "subreddits": ["openclaw", "AI", "indiehackers"],
+      "enabled": true
+    },
+    {
+      "platform": "x",
+      "keywords": ["openclaw", "AI agents", "automation"],
+      "enabled": true
+    }
+  ],
+  "content_plan": {
+    "twitter": {
+      "posts_per_week": 14,
+      "hashtags": ["#openclaw", "#AI", "#automation"],
+      "length": "short"
+    },
+    "newsletter": {
+      "editions_per_week": 2,
+      "word_count": 1500
+    },
+    "youtube": {
+      "scripts_per_week": 3,
+      "duration_minutes": 9
+    },
+    "instagram": {
+      "posts_per_week": 7,
+      "format": "carousel"
+    }
+  },
+  "visuals": {
+    "thumbnails": {
+      "style": "minimalist",
+      "brand_colors": ["#1a1a1a", "#00d4aa"]
+    },
+    "graphics": {
+      "templates": ["quote", "stat", "announcement"]
+    }
+  },
+  "scheduling": {
+    "platforms": ["twitter", "linkedin", "youtube", "instagram"],
+    "optimal_times": {
+      "twitter": ["09:00", "14:00", "19:00"],
+      "linkedin": ["09:00", "17:00"],
+      "youtube": ["10:00", "18:00"],
+      "instagram": ["11:00", "20:00"]
+    }
+  },
+  "delivery": {
+    "channel": "whatsapp",
+    "schedule": "08:00",
+    "frequency": "weekly"
+  }
+}

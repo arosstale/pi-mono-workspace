@@ -1,0 +1,29 @@
+# Core
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Social APIs
+tweepy>=4.14.0  # Twitter/X
+praw>=7.7.0  # Reddit
+google-api-python-client>=2.100.0  # YouTube
+
+# Content Generation
+openai>=1.0.0  # GPT for content
+anthropic>=0.5.0  # Claude API
+
+# Image Generation
+pillow>=10.0.0
+stability-sdk>=0.8.0  # Stable Diffusion
+
+# OpenClaw
+openclaw-python>=0.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0.0
+colorlog>=6.7.0
+
+# Async
+asyncio>=3.4.3
+aiofiles>=23.0.0

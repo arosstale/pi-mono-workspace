@@ -1,0 +1,37 @@
+{
+  "keyword_research": {
+    "tools": ["google_keyword_planner", "ahrefs"],
+    "weekly_volume_min": 100,
+    "difficulty_max": 30
+  },
+  "programmatic_seo": {
+    "cluster_size": 10,
+    "pillar_pages": 5,
+    "content_calendar_weeks": 24
+  },
+  "content_generation": {
+    "posts_per_week": 4,
+    "word_count_min": 1500,
+    "word_count_max": 2500
+  },
+  "cms": {
+    "platform": "wordpress",
+    "url": "https://your-site.com/wp-json",
+    "username": "api_user",
+    "password": "api_password"
+  },
+  "backlink_acquisition": {
+    "outreach_emails_per_day": 20,
+    "follow_up_days": [3, 7, 14],
+    "templates": ["guest_post", "link_insertion", "content_exchange"]
+  },
+  "search_console": {
+    "site_url": "https://your-site.com",
+    "api_key": "google_search_console_api_key"
+  },
+  "delivery": {
+    "channel": "whatsapp",
+    "daily_summary": "09:00",
+    "weekly_report": "18:00"
+  }
+}

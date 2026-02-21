@@ -1,0 +1,26 @@
+# Core
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# Build Tools
+node>=20.0.0  # For npm/yarn commands
+
+# Deployment
+vercel>=32.0.0
+netlify-cli>=17.0.0
+
+# Testing
+pytest>=7.4.0
+playwright>=1.40.0
+
+# OpenClaw
+openclaw-python>=0.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0.0
+colorlog>=6.7.0
+
+# Async
+asyncio>=3.4.3
+aiofiles>=23.0.0
