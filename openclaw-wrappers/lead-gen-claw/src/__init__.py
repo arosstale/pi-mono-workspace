@@ -1,0 +1,6 @@
+"""
+Lead Generation Claw — Main package
+"""
+
+__version__ = "1.0.0"
+__author__ = "OpenClaw Wrappers"

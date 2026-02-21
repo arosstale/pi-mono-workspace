@@ -1,0 +1,35 @@
+{
+  "sources": [
+    {
+      "name": "Expo West 2026",
+      "url": "https://smallworldlabs.com/events/expo-west-2026",
+      "platform": "smallworldlabs",
+      "enabled": true
+    },
+    {
+      "name": "Winter FancyFaire 2026",
+      "url": "https://www.mapyourshow.com/26_0/index.cfm?selectedID=0",
+      "platform": "mapyourshow",
+      "enabled": true
+    }
+  ],
+  "enrichment": {
+    "verify_websites": true,
+    "validate_emails": true,
+    "classify_industry": true,
+    "find_social_media": true
+  },
+  "qualification": {
+    "min_score": 50,
+    "criteria": {
+      "company_size": ["small", "medium", "large"],
+      "industries": ["food", "beverage", "retail", "organic"],
+      "regions": ["US", "Canada", "Europe"]
+    }
+  },
+  "delivery": {
+    "channel": "whatsapp",
+    "schedule": "09:00",
+    "formats": ["csv", "excel", "sqlite"]
+  }
+}
