@@ -661,4 +661,89 @@ result = safety.evaluate_action(action)
 
 ---
 
+## 📚 **Deep Ecology + Biomimicry Integration (2026-02-21)**
+
+### Framework Thesis
+**Deep Ecology (Why) + Biomimicry (How) = Ethical AI Aligned with Natural Laws**
+
+```
+┌─────────────────────────────────────────────┐
+│      Unified Biomimetic Framework           │
+├─────────────────────────────────────────────┤
+│                                             │
+│  Deep Ecology (Why) + Biomimicry (How)     │
+│          │              │              │
+│  Nature as Model ←─→ Nature as Mechanism       │
+│  Intrinsic Value ←─→ Intrinsic Efficiency     │
+│          │              │              │
+│          ▼              ▼              │
+│     Ethical AI Aligned with Natural Laws  │
+│                                             │
+└─────────────────────────────────────────────┘
+```
+
+### Books to Acquire
+| Book | Author | Price | Priority | ISBN | Store |
+|------|----------|---------|----------|---------|--------|
+| **ProfondaMente LentaMente** | Mondadori | €5.99 | ⭐⭐⭐ | 9788804707090 | mondadoristore.it |
+| **Ecologia Profonda** | Devall & Sessions | €15.00 | ⭐⭐ | 9788839132838 | xempty.it |
+| **Lineamenti per una Nuova Visione** | Various | €16.00 (SALE) | ⭐ | 9788833035025 | feltrinelli.it |
+| **Natura Instabile** | Auro Michele Perego | €16.15 | ⭐ | 9788833033822 | feltrinelli.it |
+
+**Total:** €53.14
+
+### Research Documents
+- `research/BIOMIMICRY_DEEP_ECOLOGY_INTEGRATION.md` (19.4KB)
+  - Unified framework with 4 pillars
+  - Concept mapping tables
+  - 5-phase implementation roadmap
+  - Purchase links & reading schedule
+
+- `research/BOOK_ORDERING_GUIDE.md` (2.5KB)
+  - Step-by-step ordering instructions
+  - Cost optimization (free shipping)
+  - Week 1-6 reading plan
+
+### Concept Mapping
+| Deep Ecology Concept | Biomimicry Implementation | Example |
+|-------------------|------------------------|-----------|
+| Nature as Model | Stigmergy patterns | ACO pheromones |
+| Intrinsic Value | Respect emergent solutions | Don't override agents |
+| Self-Organization | Decentralized agents (ACO, Skins) |
+| Non-Anthropocentric | Learning *from* nature | Not *exploiting* nature |
+
+### Key Books for Research
+1. **Ecologia Profonda** (Devall & Sessions, 1985)
+   - Chapter 4: Self-Organization → ACO validation
+   - Philosophical foundation for ethical biomimicry
+
+2. **Natura Instabile** (Auro Michele Perego, 2019)
+   - Order/Entropy sections → validates emergence
+   - Non-equilibrium thermodynamics
+
+3. **ProfondaMente LentaMente** (Mondadori)
+   - Chapter 2: Attention & Thresholds → homeostatic safety
+   - Slowness as deep connection
+
+4. **Lineamenti per una Nuova Visione** (Various)
+   - Practical application in daily life
+   - Context-aware decision making
+
+### Reading Schedule
+- **Weeks 1-2:** Ecologia Profonda (Chapters 1-4)
+- **Week 3:** Natura Instabile (Order/Entropy)
+- **Week 4:** ProfondaMente LentaMente (Chapter 2)
+- **Week 5-6:** Lineamenti + Synthesis
+
+### Implementation Roadmap
+| Phase | Weeks | Goal |
+|-------|---------|--------|
+| 1: Reading & Annotation | 1-6 | Complete all books with notes |
+| 2: Concept Integration | 7-8 | Merge frameworks |
+| 3: Framework Implementation | 9-12 | Build unified AI system |
+| 4: Testing & Validation | 13-16 | Real-world validation |
+| 5: Documentation & Publication | 17-20 | Share findings with community |
+
+---
+
 *Last updated: 2026-02-21*
