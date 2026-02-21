@@ -1015,3 +1015,64 @@ OpenClaw is free and open-source, but setup takes 8-16 hours. Wrappers are pre-c
 ---
 
 *Last updated: 2026-02-21*
+
+---
+
+## 🚀 **OpenClaw Wrappers Sales Site — LIVE! (2026-02-21)**
+
+### Deployment Status: ✅ **LIVE & WORKING**
+
+**URL:** https://openclaw-wrappers.vercel.app
+**Platform:** Vercel (Git-based auto-deploy)
+
+### What's Live
+
+- ✅ Full sales landing page with 4 wrapper cards
+- ✅ Pricing tables for all tiers
+- ✅ Mobile responsive design
+- ✅ Dark theme (OpenClaw branding)
+- ✅ Call-to-action buttons
+
+### How Auto-Deploy Works
+
+1. Make changes locally
+2. Run: `git commit -m "Update" && git push`
+3. Vercel auto-detects push
+4. Auto-redeploys in ~30 seconds
+
+**No CLI needed ever again.**
+
+---
+
+### Next Steps (Manual Actions Required)
+
+1. **Add Payment Links** — Stripe or LemonSqueezy checkout URLs
+2. **Test Checkout Flow** — Complete test purchase for each wrapper
+3. **Create Discord Community** — Invite-only server for buyers
+4. **Launch Marketing** — X thread, LinkedIn, Reddit posts
+5. **Create Demo Videos** — 90-second walk-throughs for each wrapper
+
+---
+
+### Revenue Potential
+
+| Scenario | Monthly Revenue | Annual Revenue |
+|-----------|-----------------|----------------|
+| **Conservative** (10 buyers) | **$17,440 / mo** | **$209,280 / yr** |
+| **Aggressive** (50 buyers) | **$87,167 / mo** | **$1,046,000 / yr** |
+
+---
+
+### Git Status
+
+**Latest Commit:** `2789fe9` — feat(wrappers): Deploy OpenClaw Wrappers site to Vercel - LIVE!
+
+**Documentation:** `openclaw-wrappers/SITE_LIVE.md`
+
+---
+
+**This is your biggest revenue opportunity yet!** 🚀🦞
+
+---
+
+*Last updated: 2026-02-21*
