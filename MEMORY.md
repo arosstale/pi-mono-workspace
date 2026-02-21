@@ -518,4 +518,37 @@ NETLIFY_AUTH_TOKEN="nfp_rCyYJ4CycbXAPb1zQzLDT3gnn9zQEiuB6edf" netlify deploy --p
 
 ---
 
+## 🔒 **GitHub OpenClaw Skills - Full Security Scan (2026-02-21)**
+
+### Scan Results
+- **Total Skills Analyzed:** 8,221
+- **Suspicious:** 4 (0.05%)
+- **Clean:** 8,217 (99.95%)
+- **Critical/High Risk:** 0 (0.00%)
+
+### Suspicious Skills (Medium Risk)
+All are "stealth browser" skills that evade bot detection:
+
+| Skill | Path | URL |
+|-------|------|-----|
+| b0tresch-stealth-browser | skills/b0tresch/b0tresch-stealth-browser | [View](https://github.com/openclaw/skills/tree/main/skills/b0tresch/b0tresch-stealth-browser) |
+| camoufox-stealth-browser | skills/kesslerio/camoufox-stealth-browser | [View](https://github.com/openclaw/skills/tree/main/skills/kesslerio/camoufox-stealth-browser) |
+| kesslerio-stealth-browser | skills/kesslerio/kesslerio-stealth-browser | [View](https://github.com/openclaw/skills/tree/main/skills/kesslerio/kesslerio-stealth-browser) |
+| stealth-browser | skills/mayuqi-crypto/stealth-browser | [View](https://github.com/openclaw/skills/tree/main/skills/mayuqi-crypto/stealth-browser) |
+
+### Files Created
+- `GITHUB_SECURITY_REPORT.md` - Full security report
+- `GITHUB_REFINED_SCAN_REPORT.json` - JSON report with all skills
+- `GITHUB_SUSPICIOUS_REFINED.json` - Suspicious skills list
+- `GITHUB_TREE_FULL.json` - Raw GitHub tree data (67,647 entries)
+- `refined_scan.py` - Python scanner script
+
+### Location
+- `~/pi-mono-workspace/awesome-openclaw-skills/`
+
+### Key Finding
+The OpenClaw skills repository is **overwhelmingly safe** with 99.95% clean rate. Only 4 stealth browser skills (0.05%) require security review before use.
+
+---
+
 *Last updated: 2026-02-21*
