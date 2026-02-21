@@ -482,6 +482,40 @@ NETLIFY_AUTH_TOKEN="nfp_rCyYJ4CycbXAPb1zQzLDT3gnn9zQEiuB6edf" netlify deploy --p
 - 💻 Coding Agents (133)
 - 🌍 Browser & Automation (139)
 
+### Security Sanitization (2026-02-21)
+**Status:** ✅ Completed and Deployed
+**Fork:** https://github.com/arosstale/awesome-openclaw-skills
+
+**Scan Results:**
+- **Total Skills:** 3,020
+- **Suspicious:** 9 (0.3%)
+- **Removed (High Risk):** 4 skills
+- **Flagged (Medium Risk):** 5 skills
+- **Clean:** 3,011 skills (99.87%)
+
+**High-Risk Skills Removed:**
+1. camoufox - Anti-detect browser automation
+2. stealthy-auto-browse - Evades bot detection
+3. aluvia-web-proxy - Bypass CAPTCHAs
+4. aluvia-web-unblock - Bypass CAPTCHAs
+
+**Sanitization Files:**
+- `SANITIZATION_REPORT.md` - Full security report
+- `SUSPICIOUS_SKILLS.json` - Detailed skill analysis
+- `README_CLEAN.md` - Sanitized skill list
+- `sanitize.py` - Basic sanitization script
+- `comprehensive_sanitize.py` - Full scanner
+- `full_sanitize.py` - Creates clean README
+
+**Original Exclusions (by curator):**
+- Spam/bulk accounts: 1,180
+- Crypto/blockchain: 672
+- Duplicates: 492
+- Malicious (audited): 396
+- Non-English: 8
+
+**Total Filtered:** 2,748 skills excluded from original 5,705
+
 ---
 
 *Last updated: 2026-02-21*
