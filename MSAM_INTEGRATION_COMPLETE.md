@@ -20,8 +20,9 @@
 - Script: `~/pi-mono-workspace/scripts/msam_decay_cron.sh`
 - Logs: `/var/log/msam-decay.log`
 
-### 4. REST API Test Script Created
-- Script: `~/pi-mono-workspace/scripts/test_msam_api.py`
+### 4. REST API Test Scripts Created
+- Python: `~/pi-mono-workspace/scripts/test_msam_api.py`
+- TypeScript: `~/pi-mono-workspace/scripts/test-msam-api.ts` (pi-agent compatible)
 - Tests: POST /store, POST /query, POST /context, GET /stats
 - Ready to run after MSAM server startup
 
@@ -61,9 +62,14 @@ nohup python -m msam.server > /tmp/msam-server.log 2>&1 &
 # Check logs
 tail -f /tmp/msam-server.log
 
-# Test API
+# Test API (Python)
 cd ~/pi-mono-workspace
 python scripts/test_msam_api.py
+
+# Test API (TypeScript - pi-agent)
+cd ~/pi-mono-workspace/scripts
+npm install
+npm test
 ```
 
 ---
@@ -100,8 +106,10 @@ python scripts/test_msam_api.py
 |------|---------|
 | `scripts/msam_decay_cron.sh` | Hourly decay cycle cron script |
 | `scripts/msam_batch_export.sh` | Quick batch export script |
-| `scripts/test_msam_api.py` | REST API integration test |
+| `scripts/test_msam_api.py` | REST API integration test (Python) |
+| `scripts/test-msam-api.ts` | REST API integration test (TypeScript) |
 | `scripts/msam_export_quick.py` | Python export script |
+| `scripts/package-msam-api.json` | TypeScript package config |
 
 ---
 
