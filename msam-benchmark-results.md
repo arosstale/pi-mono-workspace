@@ -364,13 +364,13 @@
    import requests
 
    # Test store
-   resp = requests.post("http://localhost:8000/store", json={
+   resp = requests.post("http://localhost:3001/store", json={
        "content": "User prefers dark mode",
        "stream": "semantic"
    })
 
    # Test retrieve
-   resp = requests.post("http://localhost:8000/query", json={
+   resp = requests.post("http://localhost:3001/query", json={
        "query": "What are user's preferences?"
    })
    print(resp.json())

@@ -418,7 +418,7 @@ python3 << 'EOF'
 import requests
 
 # Store memory
-resp = requests.post("http://localhost:8000/store", json={
+resp = requests.post("http://localhost:3001/store", json={
     "content": "User prefers dark mode and concise responses",
     "stream": "semantic",
     "arousal": 0.2,
@@ -427,7 +427,7 @@ resp = requests.post("http://localhost:8000/store", json={
 })
 
 # Retrieve (confidence-gated)
-resp = requests.post("http://localhost:8000/query", json={
+resp = requests.post("http://localhost:3001/query", json={
     "query": "What are user's preferences?"
 })
 print(resp.json())

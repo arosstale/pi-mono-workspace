@@ -73,7 +73,7 @@ API URL: http://localhost:3001
 If MSAM server is not running:
 
 ```
-❌ ERROR: connect ECONNREFUSED 127.0.0.1:8000
+❌ ERROR: connect ECONNREFUSED 127.0.0.1:3001
    MSAM server not running
    Start it with: cd ~/msam && python -m msam.server
 ```
@@ -81,7 +81,7 @@ If MSAM server is not running:
 ## Integration Example
 
 ```typescript
-import { request } from 'https';
+import { request } from 'http';
 
 async function queryMSAM(query: string) {
   const result = await httpRequest('POST', '/v1/query', { query });
@@ -107,7 +107,7 @@ async function queryMSAM(query: string) {
 
 | Feature | Python | TypeScript |
 |---------|--------|------------|
-| Dependencies | requests | native https |
+| Dependencies | requests | native http |
 | Runtime | CPython | Node.js |
 | Type Safety | No | Yes |
 | Compilation | No | ts-node |
