@@ -37,7 +37,7 @@ npm test
 ```
 🧪 MSAM REST API Integration Test (TypeScript)
 
-API URL: http://localhost:8000
+API URL: http://localhost:3001
 ==================================================
 📤 Testing POST /store...
   Status: 200

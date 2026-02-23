@@ -1,0 +1,17 @@
+{
+  "name": "msam-api-test",
+  "version": "1.0.0",
+  "description": "MSAM REST API integration test (TypeScript)",
+  "main": "test-msam-api.ts",
+  "scripts": {
+    "test": "ts-node test-msam-api.ts"
+  },
+  "keywords": ["msam", "api", "test"],
+  "author": "OpenClaw",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}

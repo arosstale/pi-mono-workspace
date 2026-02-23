@@ -5,9 +5,9 @@
  * TypeScript version for pi-agent ecosystem
  */
 
-import { request } from 'https';
+import { request } from 'http';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'http://localhost:3001';
 const API_BASE = '/v1';
 
 interface Response {

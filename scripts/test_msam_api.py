@@ -5,7 +5,7 @@ import json
 import time
 import requests
 
-API_URL = "http://localhost:8000"
+API_URL = "http://localhost:3001/v1"
 
 def test_store():
     """Test storing atoms via API."""
