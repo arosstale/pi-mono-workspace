@@ -19,6 +19,63 @@
 
 ---
 
+## 🧠 **MSAM Integration (2026-02-23)**
+
+### MSAM (Multi-Stream Adaptive Memory)
+- **Repository:** https://github.com/jadenschwab/msam
+- **Location:** `/home/majinbu/msam`
+- **Token Savings:** 99.3% (51 vs 7,327 tokens)
+
+### Configuration
+- **Embeddings:** ONNX (local, no API key)
+- **Python:** 3.10.12 (works despite 3.11+ requirement)
+- **Database:** 75 atoms, 328 KB
+
+### Features
+- 4 memory streams: semantic (70), episodic (3), procedural (2)
+- Confidence-gated retrieval: HIGH/MEDIUM/LOW/NONE
+- ACT-R activation scoring
+- Bi-temporal decay (hourly cron)
+- REST API with 20 endpoints
+
+### Files Created
+| File | Purpose |
+|------|---------|
+| `MSAM_INTEGRATION_COMPLETE.md` | Full completion report |
+| `scripts/msam_batch_export.sh` | Quick batch export |
+| `scripts/msam_decay_cron.sh` | Hourly cron script |
+| `scripts/test_msam_api.py` | API test (Python) |
+| `scripts/test-msam-api.ts` | API test (TypeScript) |
+| `scripts/MSAM-API-TEST-TS.md` | TypeScript API test guide |
+
+### Usage
+```bash
+# Start server
+cd ~/msam && python -m msam.server
+
+# Test API (Python)
+cd ~/pi-mono-workspace
+python scripts/test_msam_api.py
+
+# Test API (TypeScript)
+cd ~/pi-mono-workspace/scripts
+npm install && npm test
+```
+
+### Git Commits
+- `aaa942c` - docs(memory): Add 2026-02-23 MSAM integration completion log
+- `16b1e8e` - docs(msam): Add TypeScript API test documentation
+- `905350a` - feat(msam): Add TypeScript API test script (pi-agent compatible)
+- `615af2e` - feat(msam): Complete MSAM integration - export, cron, API
+
+### Cron Job
+```bash
+# Active cron job
+0 * * * * /home/majinbu/pi-mono-workspace/scripts/msam_decay_cron.sh
+```
+
+---
+
 ## 🚀 **Sales Sites (2026-02-17)**
 
 ### OpenClaw - AI Automation Platform
