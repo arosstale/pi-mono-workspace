@@ -1,0 +1,6 @@
+Client Name,Server ID,Service,Price,Plan,Start Date,Status,Next Renewal,Payment Method,Contact Email,Contact Discord,Notes
+Company A,123456789,Lead Generation Service,499,Starter,2024-01-15,Active,2024-03-15,Stripe,email@companya.com,user123,Satisfied client
+Company B,987654321,Community Monetization,999,Pro,2024-02-01,Active,2024-04-01,PayPal,ceo@companyb.com,company_ceo,Looking to upgrade
+Company C,555555555,Setup & Training,1500,One-time,2024-02-10,Completed,N/A,Bank Transfer,dev@startup.io,developer,Custom workflow built
+Company D,111111111,Lead Generation Service,2499,Enterprise,2024-02-20,Active,2024-05-20,Stripe,contact@companyd.com,contact123,High volume - custom integration
+Company E,222222222,Community Monetization,999,Pro,2024-02-25,At Risk,2024-03-25,Stripe,sales@companye.com,sales_user456,Consider canceling - follow up needed
