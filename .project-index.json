@@ -1,0 +1,289 @@
+[
+  {
+    "name": "FinceptTerminal",
+    "path": "/home/majinbu/pi-mono-workspace/FinceptTerminal",
+    "type": "active",
+    "has_package": true,
+    "has_readme": true,
+    "scripts": [],
+    "dependencies": 0
+  },
+  {
+    "name": "agency-crm",
+    "path": "/home/majinbu/pi-mono-workspace/agency-crm",
+    "type": "active",
+    "has_package": true,
+    "has_readme": true,
+    "scripts": [
+      "dev",
+      "build",
+      "start",
+      "lint",
+      "seed"
+    ],
+    "dependencies": 14
+  },
+  {
+    "name": "agency-landing",
+    "path": "/home/majinbu/pi-mono-workspace/agency-landing",
+    "type": "active",
+    "has_package": true,
+    "has_readme": true,
+    "scripts": [
+      "dev",
+      "build",
+      "start",
+      "lint"
+    ],
+    "dependencies": 4
+  },
+  {
+    "name": "agent-sandbox-skill",
+    "path": "/home/majinbu/pi-mono-workspace/agent-sandbox-skill",
+    "type": "docs",
+    "has_package": false,
+    "has_readme": true
+  },
+  {
+    "name": "automaker",
+    "path": "/home/majinbu/pi-mono-workspace/automaker",
+    "type": "active",
+    "has_package": true,
+    "has_readme": true,
+    "scripts": [
+      "postinstall",
+      "fix:lockfile",
+      "dev",
+      "start",
+      "_dev:web"
+    ],
+    "dependencies": 3
+  },
+  {
+    "name": "awesome-openclaw-usecases",
+    "path": "/home/majinbu/pi-mono-workspace/awesome-openclaw-usecases",
+    "type": "docs",
+    "has_package": false,
+    "has_readme": true
+  },
+  {
+    "name": "claude-code-hooks-multi-agent-observability",
+    "path": "/home/majinbu/pi-mono-workspace/claude-code-hooks-multi-agent-observability",
+    "type": "docs",
+    "has_package": false,
+    "has_readme": true
+  },
+  {
+    "name": "codex-mcp-memory",
+    "path": "/home/majinbu/pi-mono-workspace/codex-mcp-memory",
+    "type": "active",
+    "has_package": true,
+    "has_readme": true,
+    "scripts": [
+      "start",
+      "dev",
+      "format",
+      "format:check",
+      "lint"
+    ],
+    "dependencies": 3
+  },
+  {
+    "name": "dashboard-deploy",
+    "path": "/home/majinbu/pi-mono-workspace/dashboard-deploy",
+    "type": "active",
+    "has_package": true,
+    "has_readme": true,
+    "scripts": [
+      "deploy"
+    ],
+    "dependencies": 0
+  },
+  {
+    "name": "demo-restaurant",
+    "path": "/home/majinbu/pi-mono-workspace/demo-restaurant",
+    "type": "active",
+    "has_package": true,
+    "has_readme": true,
+    "scripts": [
+      "dev",
+      "build",
+      "start",
+      "lint"
+    ],
+    "dependencies": 14
+  },
+  {
+    "name": "free-websites-dashboard",
+    "path": "/home/majinbu/pi-mono-workspace/free-websites-dashboard",
+    "type": "active",
+    "has_package": true,
+    "has_readme": true,
+    "scripts": [
+      "dev",
+      "build",
+      "deploy"
+    ],
+    "dependencies": 0
+  },
+  {
+    "name": "irreplaceable-engineer-stack",
+    "path": "/home/majinbu/pi-mono-workspace/irreplaceable-engineer-stack",
+    "type": "active",
+    "has_package": true,
+    "has_readme": true,
+    "scripts": [
+      "start",
+      "daily",
+      "pi-mono",
+      "pi-coding",
+      "obsidian-sync"
+    ],
+    "dependencies": 3
+  },
+  {
+    "name": "landing",
+    "path": "/home/majinbu/pi-mono-workspace/landing",
+    "type": "active",
+    "has_package": true,
+    "has_readme": true,
+    "scripts": [
+      "bdev",
+      "build",
+      "dev",
+      "lint",
+      "start"
+    ],
+    "dependencies": 52
+  },
+  {
+    "name": "liquidator_indicator",
+    "path": "/home/majinbu/pi-mono-workspace/liquidator_indicator",
+    "type": "active",
+    "has_package": false,
+    "has_readme": true
+  },
+  {
+    "name": "memory",
+    "path": "/home/majinbu/pi-mono-workspace/memory",
+    "type": "docs",
+    "has_package": false,
+    "has_readme": false
+  },
+  {
+    "name": "mote",
+    "path": "/home/majinbu/pi-mono-workspace/mote",
+    "type": "active",
+    "has_package": true,
+    "has_readme": true,
+    "scripts": [
+      "dev",
+      "build",
+      "check-types",
+      "dev:native",
+      "dev:web"
+    ],
+    "dependencies": 6
+  },
+  {
+    "name": "nano-agent",
+    "path": "/home/majinbu/pi-mono-workspace/nano-agent",
+    "type": "docs",
+    "has_package": false,
+    "has_readme": true
+  },
+  {
+    "name": "openclaw",
+    "path": "/home/majinbu/pi-mono-workspace/openclaw",
+    "type": "active",
+    "has_package": true,
+    "has_readme": true,
+    "scripts": [
+      "android:assemble",
+      "android:install",
+      "android:run",
+      "android:test",
+      "build"
+    ],
+    "dependencies": 51
+  },
+  {
+    "name": "openclaw-chat-api",
+    "path": "/home/majinbu/pi-mono-workspace/openclaw-chat-api",
+    "type": "active",
+    "has_package": true,
+    "has_readme": true,
+    "scripts": [
+      "bdev",
+      "dev",
+      "build",
+      "start",
+      "lint"
+    ],
+    "dependencies": 9
+  },
+  {
+    "name": "openclaw-extension",
+    "path": "/home/majinbu/pi-mono-workspace/openclaw-extension",
+    "type": "active",
+    "has_package": true,
+    "has_readme": true,
+    "scripts": [
+      "vscode:prepublish",
+      "compile",
+      "watch",
+      "pretest",
+      "lint"
+    ],
+    "dependencies": 0
+  },
+  {
+    "name": "openclaw-memory-template",
+    "path": "/home/majinbu/pi-mono-workspace/openclaw-memory-template",
+    "type": "docs",
+    "has_package": false,
+    "has_readme": true
+  },
+  {
+    "name": "openknot",
+    "path": "/home/majinbu/pi-mono-workspace/openknot",
+    "type": "docs",
+    "has_package": false,
+    "has_readme": true
+  },
+  {
+    "name": "quant-lab-scaling",
+    "path": "/home/majinbu/pi-mono-workspace/quant-lab-scaling",
+    "type": "docs",
+    "has_package": false,
+    "has_readme": true
+  },
+  {
+    "name": "ralph-react-todo",
+    "path": "/home/majinbu/pi-mono-workspace/ralph-react-todo",
+    "type": "active",
+    "has_package": true,
+    "has_readme": true,
+    "scripts": [
+      "dev",
+      "build",
+      "lint",
+      "preview"
+    ],
+    "dependencies": 2
+  },
+  {
+    "name": "research-memory",
+    "path": "/home/majinbu/pi-mono-workspace/research-memory",
+    "type": "docs",
+    "has_package": false,
+    "has_readme": true
+  },
+  {
+    "name": "tvscreener",
+    "path": "/home/majinbu/pi-mono-workspace/tvscreener",
+    "type": "active",
+    "has_package": false,
+    "has_readme": true
+  }
+]

@@ -129,7 +129,7 @@ import requests
 
 # Query MSAM for context
 response = requests.post(
-    "http://localhost:8000/v1/query",
+    "http://localhost:3001/v1/query",
     json={"query": "What are user's preferences?"}
 )
 data = response.json()

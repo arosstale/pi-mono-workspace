@@ -1,0 +1,1 @@
+/home/majinbu/hl-trading-agent-private/hl-trading-agent/check_position.py
