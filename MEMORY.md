@@ -1537,3 +1537,107 @@ OpenClaw is free and open-source, but setup takes 8-16 hours. Wrappers are pre-c
 ---
 
 *Last updated: 2026-02-21*
+
+---
+
+## 🌳 **OpenClaw Tree-Structured Sessions (2026-02-25)**
+
+### Overview
+
+Port of pi's tree-structured session history to OpenClaw, adapted for chat-based platforms (Telegram, WhatsApp, Discord).
+
+### Comparison: pi vs OpenClaw
+
+| Feature | pi (Terminal) | OpenClaw Tree Sessions |
+|---------|---------------|----------------------|
+| **Interface** | TUI (arrow keys) | Chat Apps (WhatsApp, Telegram) |
+| **Branching** | Press `/tree` + navigate | Reply to message + `/fork` |
+| **Visualization** | In-terminal interactive tree | Web UI (D3.js) |
+| **Context Loading** | Linear | Tree traversal (active branch only) |
+| **Branch Switching** | Visual selection | `/checkout <number>` |
+
+### Files Created
+
+| File | Size | Purpose |
+|------|-------|---------|
+| **session-logger.ts** | 10,679 bytes | Core tree logging logic |
+| **reply-handler.ts** | 9,853 bytes | Chat command handlers |
+| **tree-visualizer.ts** | 12,925 bytes | D3.js web UI |
+| **index.ts** | 3,289 bytes | Main exports |
+| **TREE_SESSIONS.md** | 18,282 bytes | Complete guide |
+| **README.md** | 7,041 bytes | Quick start |
+| **package.json** | 1,293 bytes | NPM config |
+
+### Chat Commands Implemented
+
+/fork [name]              - Create branch from replied message
+/branches                  - List all active branches
+/checkout <number>          - Switch to branch
+/merge <number>             - Merge branch into current
+/delete-branch <number>     - Delete a branch
+/tree [format]             - Export tree (json, html, text)
+
+### Git Commits
+- d2fa12e — feat(tree-sessions): Complete tree-structured session history for OpenClaw
+
+---
+
+## 🧱 **Claw.gists - Instant Secure Sharing (2026-02-25)**
+
+### Overview
+
+Instant sharing of code, ideas, research, notes, and snippets with enterprise-grade security (AES-256-GCM encryption).
+
+### Files Created
+
+| File | Size | Purpose |
+|------|-------|---------|
+| **CLAW_GISTS.md** | 29,077 bytes | Complete system guide |
+| **cli.js** | 10,061 bytes | CLI tool with Commander.js |
+| **SKILL.md** | 13,547 bytes | OpenClaw skill documentation |
+
+### Security Features
+
+- AES-256-GCM end-to-end encryption
+- Access control (private, password-protected, time-limited)
+- Full audit logging
+- Version history with rollback
+- Secure sharing (HTTPS, token-based)
+
+### Use Cases
+
+1. Pair Programming (30 min saved)
+2. Meeting Notes (15 min saved)
+3. Code Review (1 hour saved)
+4. Research Sharing (encrypted, logged)
+5. Emergency Fixes (< 5 min response)
+
+### Git Commits
+- ea11b2d — feat(claw-gists): Complete instant secure code & ideas sharing system
+- c30a921 — feat(skill): Add OpenClaw Skill documentation for Claw.gists
+
+---
+
+## 📝 **Lead Generation & Genuine Value Guide (2026-02-25)**
+
+### File Created
+
+lead-gen-claw/GENUINE_VALUE.md (19,255 bytes)
+
+### Content
+
+- Fake vs Genuine Value comparison
+- Value Equation: Genuine Value = (Qualified Leads × Conversion Rate × LTV) - CAC
+- 5 lead gen strategies with ROI (Trade Show: 21,250%, Discord: 2,150%, LinkedIn: 4,900%, Content: 8,233%, Referral: 900%)
+- ICP scoring system (0-100)
+- Real metrics to track
+- 3 pricing tiers
+- 3 case studies
+- 2 sales frameworks (Before-After, Cost of Inaction)
+
+### Git Commits
+- e3c0df3 — feat(value): Complete Lead Generation & Genuine Value guide
+
+---
+
+*Last updated: 2026-02-25*
