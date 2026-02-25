@@ -179,7 +179,6 @@ export class ReplyForkHandler {
     }
 
     let message = '🌳 **Active Branches:**\n\n';
-    const state = this.logger.getState();
 
     branches.forEach((branch, index) => {
       const number = index + 1;

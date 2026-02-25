@@ -43,7 +43,7 @@ export class TreeSessions {
     );
 
     // Setup visualizer if Express app provided
-    if (app && config.visualizer !== false) {
+    if (app && config.visualizer !== undefined) {
       this.visualizer = new SessionTreeVisualizer(
         this.logger,
         app,

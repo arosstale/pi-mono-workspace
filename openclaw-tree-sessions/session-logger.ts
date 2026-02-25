@@ -147,7 +147,7 @@ export class SessionLogger {
 
     // Start at current leaf and walk backward
     const context: TreeMessage[] = [];
-    let currentId = this.currentLeafId;
+    let currentId: string | null = this.currentLeafId;
 
     while (currentId && context.length < limit) {
       const message = await this.findMessage(currentId);
@@ -247,7 +247,7 @@ export class SessionLogger {
 
     // Load branch context
     const merged: TreeMessage[] = [];
-    let currentId = sourceLeafId;
+    let currentId: string | null = sourceLeafId;
 
     while (currentId) {
       const message = await this.findMessage(currentId);
@@ -345,7 +345,7 @@ export class SessionLogger {
     return this.readFile();
   }
 
-  private async findMessage(id: string): Promise<TreeMessage | null> {
+  public async findMessage(id: string): Promise<TreeMessage | null> {
     const messages = await this.readAllMessages();
     return messages.find(m => m.id === id) || null;
   }
