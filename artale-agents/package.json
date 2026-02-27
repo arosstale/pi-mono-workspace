@@ -1,0 +1,31 @@
+{
+  "name": "artale-agents",
+  "version": "1.0.0",
+  "description": "3-agent lead generation system for Italian automotive/industrial automation",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start:prospector & npm run start:strategist & npm run start:outreach",
+    "start:prospector": "ts-node agents/prospector/index.ts",
+    "start:strategist": "ts-node agents/strategist/index.ts",
+    "start:outreach": "ts-node agents/outreach/index.ts",
+    "build": "tsc",
+    "db:init": "psql -f schema.sql",
+    "kb:index": "python3 kb/index.py"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "pg": "^8.11.3",
+    "openai": "^4.28.0",
+    "nodemailer": "^6.9.9",
+    "node-telegram-bot-api": "^0.64.0",
+    "chromadb": "^1.8.0",
+    "sentence-transformers": "^2.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/pg": "^8.10.9",
+    "@types/nodemailer": "^6.4.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
