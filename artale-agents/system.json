@@ -1,0 +1,138 @@
+{
+  "name": "Artale Lead System",
+  "description": "3-agent lead generation for Italian automotive/industrial automation market",
+  "version": "1.0.0",
+  
+  "agents": [
+    {
+      "id": "prospector",
+      "role": "lead_hunter",
+      "schedule": "*/30 * * * *",
+      "channels": ["discord", "linkedin"],
+      "output": "qualified_leads_queue"
+    },
+    {
+      "id": "strategist", 
+      "role": "offer_crafter",
+      "trigger": "qualified_leads_queue",
+      "rag_kb": "kb/",
+      "output": "tailored_offers_queue"
+    },
+    {
+      "id": "outreach",
+      "role": "message_sender",
+      "trigger": "tailored_offers_queue",
+      "channels": ["discord", "linkedin", "email", "whatsapp"],
+      "output": "pipeline_updates"
+    }
+  ],
+  
+  "workflow": {
+    "step1_prospect": {
+      "agent": "prospector",
+      "action": "scan_and_qualify",
+      "sources": [
+        {
+          "name": "OpenClaw Discord",
+          "servers": ["discord.gg/openclaw"],
+          "channels": ["general", "showcase", "jobs"],
+          "keywords": ["BYD", "automazione", "fleet", "operations"]
+        },
+        {
+          "name": "AI Builder Italia",
+          "type": "discord",
+          "keywords": ["cerco AI", "automazione industriale", "BYD"]
+        },
+        {
+          "name": "LinkedIn Italy",
+          "type": "linkedin",
+          "search": "BYD Italia OR fleet manager Italy OR industrial automation",
+          "roles": ["CTO", "Operations Manager", "Fleet Director"]
+        }
+      ],
+      "qualification": {
+        "score_threshold": 0.7,
+        "required_fields": ["company", "role", "vertical"],
+        "verticals": ["automotive", "industrial", "security"]
+      }
+    },
+    
+    "step2_strategize": {
+      "agent": "strategist",
+      "action": "craft_offer",
+      "rag_queries": [
+        "BYD {vertical} case study",
+        "{vertical} automation playbook", 
+        "Italy {vertical} regulations",
+        "competition differentiation"
+      ],
+      "output_formats": {
+        "discord": "casual_it",
+        "linkedin": "professional_en",
+        "email": "formal_en"
+      }
+    },
+    
+    "step3_outreach": {
+      "agent": "outreach",
+      "action": "send_and_track",
+      "sequences": {
+        "discord_first": {
+          "day0": "discord_dm",
+          "day3": "linkedin_connect",
+          "day7": "email_followup"
+        },
+        "linkedin_first": {
+          "day0": "linkedin_connect",
+          "day3": "linkedin_message", 
+          "day7": "email_proposal"
+        }
+      },
+      "rate_limits": {
+        "discord": { "per_hour": 10, "per_day": 50 },
+        "linkedin": { "per_hour": 5, "per_day": 20 },
+        "email": { "per_hour": 20, "per_day": 100 }
+      }
+    }
+  },
+  
+  "pipeline": {
+    "stages": [
+      "new",
+      "contacted", 
+      "replied",
+      "meeting_booked",
+      "proposal_sent",
+      "negotiating",
+      "closed_won",
+      "closed_lost",
+      "dead"
+    ],
+    "handoff_triggers": [
+      "reply_score >= 0.7",
+      "meeting_requested",
+      "budget_discussed"
+    ]
+  },
+  
+  "notifications": {
+    "high_signal": {
+      "channel": "telegram",
+      "to": "@artale",
+      "template": "🎯 HIGH-SIGNAL LEAD\n\n{name} | {company}\nStatus: {status}\nValue: €{value}\n\nNext: {action}"
+    },
+    "daily_summary": {
+      "time": "18:00 CET",
+      "metrics": ["messages_sent", "replies", "meetings_booked", "pipeline_value"]
+    }
+  },
+  
+  "kb_sources": [
+    "artale-decks/byd-australia-case-study.pdf",
+    "artale-decks/automotive-automation-playbook.pdf",
+    "verticals/firefighters-automation.md",
+    "verticals/security-systems-integration.md",
+    "competition/manus-agent-analysis.md",
+    "italy-market/byd-leo-avatar-analysis.md"
+  ]
+}
